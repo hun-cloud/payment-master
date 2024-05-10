@@ -3,3 +3,17 @@ spring:
     url: r2dbc:mysql://localhost:3306/test
     username: root
     password: 1234
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  thymleaf:
+    cache: false
+
+PSP:
+  toss:
+    secretKey: test_gsk_docs_OaPz8L5KdmQXkzRz3y47BMw6
+    url: https://api.tosspayments.com
+
+#clientKey : test_gck_docs_Ovk5rk1EwkEbP0W43n07xlzm
+#secretKey :
